@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.book a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size : 20px;
+  background: transparent;
+  border-radius: 8px;
+  transition : 0.4s;
+  border: 3px solid rgb(14, 14, 15);
+  }
+  .book a:hover{
+    background :black;
+    border: 2px solid rgb(25, 24, 38);
+  }
+  .testdrive a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size : 20px;
+    background: transparent;
+    border-radius: 8px;
+    transition : 0.4s;
+    border: 3px solid rgb(26, 8, 157);
+    }
+    .testdrive a:hover{
+      background :rgb(111, 92, 205) ;
+      border: 2px solid rgb(26, 8, 157);
+    }
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.slide-in {
+  position: absolute;
+  top: 5%;
+  left: -100%;
+  transform: translate(-50%, -50%);
+  animation: slide-in 1s ease forwards;
+}
+.slide-in2 {
+  font-family: sans-serif;
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  transform: translate(180%, -20%);
+  animation: slide-in 1s ease forwards;
+}
+.slide-in12 {
+  position: absolute;
+  top: 5%;
+  left: 5%; /* Adjust the value as needed */
+  transform: translate(-1050%, -20%);
+  animation: slide-in 1s ease forwards;
+}
+
+.slide-in22 {
+  position: absolute;
+  top: 5%;
+  right: 5%; /* Adjust the value as needed */
+  transform: translate(90%, -20%);
+  animation: slide-in 1s ease forwards;
+}
+
+
+.slide-inbook {
+  position: absolute;
+  top: 95%;
+  right: 31%; /* Adjust the value as needed */
+  transform: translate(-50%, -50%);
+  animation: slide-in 1s ease forwards;
+}
+
+
+@keyframes slide-inbook {
+  0% { left: -100%; }
+  100% { left: 50%; }
+}
+.slide-intest {
+  position: absolute;
+  top: 95%;
+  right: 35%; /* Adjust the value as needed */
+  transform: translate(5%, -50%);
+  animation: slide-in 1s ease forwards;
+}
+
+
+
+.slide-incpyryt{
+  position: absolute;
+  top: 95%;
+  left: 5%; /* Adjust the value as needed */
+  transform: translate(-302%, -50%);
+  animation: slide-in 1s ease forwards;
+}
+
+
+@keyframes slide-incpyryt {
+  0% { left: -100%; }
+  100% { left: 50%; }
+}
+@keyframes slide-intest {
+  0% { left: -100%; }
+  100% { left: 50%; }
+}
+
+@keyframes slide-in12 {
+  0% { left: -100%; }
+  100% { left: 50%; }
+}
+
+
+@keyframes slide-in {
+  0% { left: -100%; }
+  100% { left: 50%; }
+}
+
+@keyframes slide-in2 {
+  0% { left: -100%; }
+  100% { left: 50%; }
+}
+@keyframes slide-in22 {
+  0% { left: -100%; }
+  100% { left: 50%; }
+}
+
+.zoom-text {
+  transition: all 0.3s ease;
+}
+
+.zoom-text:hover {
+  transform: scale(1.2) translateY(-20px) translateX(-150px);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.option:hover .overlay {
+  opacity: 1;
+}
+
+.overlay a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .option {
+    width: 100%;
+  }
+}
+.social-icons {
+  margin: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Remove scrolling */
+}
+
+.hero-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: fade-slideshow 20s infinite;
+}
+
+@keyframes fade-slideshow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
