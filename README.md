@@ -1,2 +1,4 @@
 # OCTANET_July
-Completed task 1 of web development internship @octanet
+Completed task 1 :- LandingPage
+Completed task 2 :- Todolist
+
